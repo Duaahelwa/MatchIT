@@ -7,16 +7,15 @@ public class ArrayStatistics {
 		for (int i = 0; i < a.length; i++) {
 			if (a[i] < 0) {
 				return i;
-			} else {
-				return -1;
-			}
+			} 
 		}
 		return -1;
 	}
+
 	
 	/** Returnerar det minsta värdet i vektorn a. */
 	public static double min(double[] a) {
-		double minVal = -Double.MAX_VALUE;
+		double minVal = Double.MAX_VALUE;
 		for (int i = 0; i < a.length; i++) { 
 			if (a[i] < minVal) {
 				minVal = a[i];
@@ -27,22 +26,29 @@ public class ArrayStatistics {
 	
 	/** Returnerar det största värdet i vektorn a. */
 	public static double max(double[] a) {
-		double maxVal = -Double.MAX_VALUE;
-		for (int i = 0; i == a.length; i++) {
+		double maxVal = - Double.MAX_VALUE;
+		
+		for (int i = 0; i < a.length; i++) {
+			
 			if (a[i] > maxVal) {
-				maxVal = a[i];
+				
+				maxVal = a[i];	
 			}
+	
 		}
+		
+	
 		return maxVal;
 	}
 	
 	/** Beräknar medelvärdet av talen i vektorn a. */
 	public static double avg(double[] a) {
 		double sum = 0;
-		for (int i = 1; i <= a.length; i++) {
-			sum += i;
+		for (int i = 0; i < a.length; i++) {
+			sum += a[i];
 		}
 		return sum / a.length;
 	}
-
+	
 }
+

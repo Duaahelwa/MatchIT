@@ -9,7 +9,7 @@ public class GessingGame {
 
 		// generating a random number
 		Random random = new Random();
-		int gessedNumber = random.nextInt(1020);
+		int gessedNumber = random.nextInt(100);
 
 		int numberOfTries = 0;
 		Scanner scan = new Scanner(System.in);
