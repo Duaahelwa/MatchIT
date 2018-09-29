@@ -12,26 +12,25 @@ public class ThrowDiceCounter {
 		Scanner scan = new Scanner(System.in);
 
 		int numberOfThrows = scan.nextInt();
+		scan.close();
 
-		//int counter = 0;
+		// int counter = 0;
 
-		
 		int[] counters = new int[6];
 
 		for (int i = 0; i < numberOfThrows; i++) {
-			
-			int randomNumber = random.nextInt(6);
-			
-			System.out.println(randomNumber);
-			
 
-					counters[randomNumber]++;
-				
-			}
-			 
-		System.out.println(Arrays.toString(counters));
+			int randomNumber = random.nextInt(6);
+
+			System.out.println(randomNumber);
+
+			counters[randomNumber]++;
+
 		}
 
+		System.out.println(Arrays.toString(counters));
+		
+		
 	}
 
-
+}

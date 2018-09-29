@@ -1,5 +1,90 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
+	<section name="org.eclipse.ltk.ui.refactoring.settings">
+	</section>
+	<section name="javadoc">
+		<item value="public" key="access"/>
+		<item value="false" key="noindex"/>
+		<item value="/home/doua/Downloads/edaa20-workspace/Lab03/javadoc.xml" key="antpath"/>
+		<item value="false" key="nodeprecatedlist"/>
+		<item value="true" key="use"/>
+		<item value="true" key="author"/>
+		<item value="false" key="nodeprecated"/>
+		<item value="false" key="nonavbar"/>
+		<item value="" key="docletpath"/>
+		<item value="/usr/lib/jvm/java-11-openjdk-amd64/bin/javadoc" key="javadoc_command_history"/>
+		<item value="1.8" key="source"/>
+		<item value="true" key="version"/>
+		<item value="DiceDocumentition" key="doctitle"/>
+		<item value="" key="docletname"/>
+		<item value="true" key="splitindex"/>
+		<item value="true" key="fromStandard"/>
+		<item value="false" key="notree"/>
+		<item value="/home/doua/Downloads/edaa20-workspace/Lab03/doc" key="destdir"/>
+		<item value="false" key="openinbrowser"/>
+		<section name="projects">
+			<section name="Lab10">
+				<item value="/home/doua/Downloads/edaa20-workspace/Lab10/javadoc.xml" key="antpath"/>
+				<item value="/home/doua/Downloads/edaa20-workspace/Lab10/doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="Lab11">
+				<item value="/home/doua/Downloads/edaa20-workspace/Lab11/javadoc.xml" key="antpath"/>
+				<item value="/home/doua/Downloads/edaa20-workspace/Lab11/doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="Lab01">
+				<item value="/home/doua/Downloads/edaa20-workspace/Lab01/javadoc.xml" key="antpath"/>
+				<item value="/home/doua/Downloads/edaa20-workspace/Lab01/doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="Lab02">
+				<item value="/home/doua/Downloads/edaa20-workspace/Lab02/javadoc.xml" key="antpath"/>
+				<item value="/home/doua/Downloads/edaa20-workspace/Lab02/doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="Hello">
+				<item value="/home/doua/Downloads/edaa20-workspace/Hello/javadoc.xml" key="antpath"/>
+				<item value="/home/doua/Downloads/edaa20-workspace/Hello/doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="Lab08">
+				<item value="/home/doua/Downloads/edaa20-workspace/Lab08/javadoc.xml" key="antpath"/>
+				<item value="/home/doua/Downloads/edaa20-workspace/Lab08/doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="Lab09">
+				<item value="/home/doua/Downloads/edaa20-workspace/Lab09/javadoc.xml" key="antpath"/>
+				<item value="/home/doua/Downloads/edaa20-workspace/Lab09/doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="cs_pt">
+				<item value="/home/doua/Downloads/edaa20-workspace/cs_pt/javadoc.xml" key="antpath"/>
+				<item value="/home/doua/Downloads/edaa20-workspace/cs_pt/doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="Lab03">
+				<item value="/home/doua/Downloads/edaa20-workspace/Lab03/javadoc.xml" key="antpath"/>
+				<item value="/home/doua/Downloads/edaa20-workspace/Lab03/doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="Lab04">
+				<item value="/home/doua/Downloads/edaa20-workspace/Lab04/javadoc.xml" key="antpath"/>
+				<item value="/home/doua/Downloads/edaa20-workspace/Lab04/doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="Lab05">
+				<item value="/home/doua/Downloads/edaa20-workspace/Lab05/javadoc.xml" key="antpath"/>
+				<item value="/home/doua/Downloads/edaa20-workspace/Lab05/doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="Lab06">
+				<item value="/home/doua/Downloads/edaa20-workspace/Lab06/javadoc.xml" key="antpath"/>
+				<item value="/home/doua/Downloads/edaa20-workspace/Lab06/doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+		</section>
+	</section>
 	<section name="org.eclipse.jdt.internal.ui.packageview.PackageExplorerPart">
 		<item value="2" key="layout"/>
 		<item value="true" key="group_libraries"/>
@@ -11,6 +96,8 @@
 		<item value="false" key="create_constructor"/>
 		<item value="true" key="create_unimplemented"/>
 	</section>
+	<section name="RenameInformationPopup">
+	</section>
 	<section name="OptionalMessageDialog.hide.">
 		<item value="true" key="org.eclipse.jdt.ui.typecomment.deprecated"/>
 	</section>
@@ -18,6 +105,13 @@
 	</section>
 	<section name="BuildPathsPropertyPage">
 		<item value="1" key="pageIndex"/>
+	</section>
+	<section name="JavadocWizardDialog">
+		<item value="706" key="DIALOG_WIDTH"/>
+		<item value="1|Ubuntu|11.0|0|GTK|1|" key="DIALOG_FONT_NAME"/>
+		<item value="630" key="DIALOG_HEIGHT"/>
+		<item value="113" key="DIALOG_X_ORIGIN"/>
+		<item value="107" key="DIALOG_Y_ORIGIN"/>
 	</section>
 	<section name="completion_proposal_size">
 	</section>

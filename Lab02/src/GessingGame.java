@@ -46,9 +46,10 @@ public class GessingGame {
 				System.out.println("Your guess is too big");
 
 			}
+			
 
 		}
-
+scan.close();
 	}
 
 }

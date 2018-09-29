@@ -2,5 +2,13 @@
 <qualifiedTypeNameHistroy>
     <fullyQualifiedTypeName name="negative"/>
     <fullyQualifiedTypeName name="ArrayStatistics"/>
+    <fullyQualifiedTypeName name="com.sun.xml.internal.rngom.parse.Parseable"/>
+    <fullyQualifiedTypeName name="se.lth.cs.pt.square.Square"/>
+    <fullyQualifiedTypeName name="Graphics"/>
+    <fullyQualifiedTypeName name="Colors"/>
     <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="java.awt.Color"/>
+    <fullyQualifiedTypeName name="se.lth.cs.pt.window.SimpleWindow"/>
+    <fullyQualifiedTypeName name="java.util.concurrent.SynchronousQueue"/>
+    <fullyQualifiedTypeName name="java.lang.Math"/>
 </qualifiedTypeNameHistroy>

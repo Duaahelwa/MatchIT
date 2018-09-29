@@ -6,7 +6,9 @@ public class TurtleDrawSquare {
 		Turtle t = new Turtle(w, 300, 300);
 		t.penDown();
 		for (int i = 0; i < 4; i++) {
+			
 			t.forward(100);
+//			t.jumpTo(600, 600);
 			t.left(90);
 		}
 	}
