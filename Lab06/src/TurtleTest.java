@@ -112,11 +112,11 @@ public class TurtleTest {
 		SimpleWindow w = new SimpleWindow(650, 300, "TurtleTest");
 		TurtleTest tester = new TurtleTest(w);
 
+		tester.testPrecision();
 		tester.testTwoTurtles();
 		tester.testDrawingWithPenUp();
 		tester.testInitialAngle();
 		tester.testAngleCalculations();
-		tester.testPrecision();
 		tester.testJumpTo();
 	}
 }

@@ -3,9 +3,9 @@ import se.lth.cs.pt.window.SimpleWindow;
 public class Turtle {
 
 	private SimpleWindow w; // the window that the turtle will be drawn in
-	private double x ;// X coordinator of the turtle location
-	private double y ;// Y cordinator of the turtle location
-	private double alpha; //the dirction of the turtle
+	private double x;// X coordinator of the turtle location
+	private double y;// Y cordinator of the turtle location
+	private double alpha; // the dirction of the turtle
 	private boolean isPenDown = false;
 
 	/**
@@ -18,7 +18,7 @@ public class Turtle {
 		this.x = x;
 		this.y = y;
 		this.alpha = 90;
-		w.moveTo(x,y);	
+		w.moveTo(x, y);
 	}
 
 	/** Sänker pennan. */
@@ -36,12 +36,13 @@ public class Turtle {
 	/** Går rakt framåt n pixlar i den riktning huvudet pekar. */
 	public void forward(int n) {
 		w.moveTo(getX(), getY());
+		x += n * Math.cos(Math.toRadians(getDirection()));
+		y -= n * Math.sin(Math.toRadians(getDirection()));
 		if (isPenDown) {
-			 x += n * Math.cos(Math.toRadians(getDirection()));
-			 y -= n * Math.sin(Math.toRadians(getDirection()));
 			w.lineTo((int) Math.round(x), (int) Math.round(y));
+		} else {
+			w.moveTo((int) Math.round(x), (int) Math.round(y));
 		}
-
 	}
 
 	/** Vrider beta grader åt vänster runt pennan. */
@@ -55,11 +56,11 @@ public class Turtle {
 	 * och huvudets riktning påverkas inte.
 	 */
 	public void jumpTo(int newX, int newY) {
-		
+
 		w.moveTo(newX, newY);
 		this.x = newX;
 		this.y = newY;
-		
+
 	}
 
 	/** Återställer huvudriktningen till den ursprungliga. */
@@ -80,7 +81,7 @@ public class Turtle {
 
 	/** Tar reda på sköldpaddans riktning, i grader från den positiva X-axeln. */
 	public int getDirection() {
-		 Math.toDegrees(alpha);
-		 return (int) alpha;
+		Math.toDegrees(alpha);
+		return (int) alpha;
 	}
 }

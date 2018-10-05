@@ -6,7 +6,7 @@ import java.util.Scanner;
 
 import se.lth.cs.pt.window.SimpleWindow;
 
-public class OnePolygon {
+public class ManyPolygon {
 
 	public static void main(String[] args) {
 
