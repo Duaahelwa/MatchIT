@@ -7,7 +7,6 @@ public class GessingGame {
 //this
 		System.out.println("Welcome to the game: guess what is the number!");
 
-		// generating a random number
 		Random random = new Random();
 		int gessedNumber = random.nextInt(100);
 
